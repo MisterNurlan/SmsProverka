@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Новая Почта</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_zabyli_parol">Восстановление Пароля</string>
+    <string name="title_activity_registraciya"> Введите номер телефона</string>
+    <string name="title_activity_zabyl_parol_prodolj">ZabylParolProdoljActivity</string>
+    <string name="title_activity_zabylparolprodoljdlya_pochty">ZabylparolprodoljdlyaPochtyActivity
+    </string>
+    <string name="pochta">Выберите Почту </string>
+    <string name="title_activity_smspoluchenie">Введите полученный код </string>
+</resources>

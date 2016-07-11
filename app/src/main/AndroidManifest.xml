@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nurlan.smsproverka">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ZabyliParolActivity"
+            android:label="@string/title_activity_zabyli_parol"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nurlan.smsproverka.MainActivity" />
+        </activity>
+        <activity
+            android:name=".RegistraciyaActivity"
+            android:label="@string/title_activity_registraciya"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nurlan.smsproverka.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ZabylParolProdoljActivity"
+            android:label="@string/title_activity_zabyl_parol_prodolj"
+            android:parentActivityName=".ZabyliParolActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nurlan.smsproverka.ZabyliParolActivity" />
+        </activity>
+        <activity
+            android:name=".SmspoluchenieActivity"
+            android:label="@string/title_activity_smspoluchenie"
+            android:parentActivityName=".RegistraciyaActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nurlan.smsproverka.RegistraciyaActivity" />
+        </activity>
+    </application>
+
+</manifest>
